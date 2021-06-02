@@ -1,3 +1,3 @@
 
-web: gunicorn --workers=2 'movie_app:create_app()'
+web: gunicorn --workers=2 'weather_app:create_app()'
 
