@@ -2,61 +2,40 @@ alembic==1.4.3
 blinker==1.4
 brotlipy==0.7.0
 certifi==2020.11.8
-cffi @ file:///opt/concourse/worker/volumes/live/a70943eb-ad97-40c6-78c9-98764c1bee07/volume/cffi_1613246936716/work
 chardet==3.0.4
 click==7.1.2
-cryptography @ file:///opt/concourse/worker/volumes/live/d5dda287-c0b3-4861-7262-fab05baa64dc/volume/cryptography_1616769284011/work
 cycler==0.10.0
 dnspython==1.16.0
 embedding-as-service-client==1.0.0
 eventlet==0.31.0
-Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
 Flask-Migrate==2.5.3
 Flask-SQLAlchemy==2.4.4
-greenlet @ file:///opt/concourse/worker/volumes/live/3d030e63-590e-4f13-439a-f458077e6fdc/volume/greenlet_1620913624685/work
 gunicorn==20.0.4
 idna==2.8
-importlib-metadata @ file:///opt/concourse/worker/volumes/live/bdafb81c-7edc-4122-77fe-a69839ec3c71/volume/importlib-metadata_1617877361684/work
 itsdangerous==1.1.0
 Jinja2==2.11.2
 joblib==0.17.0
-kiwisolver @ file:///opt/concourse/worker/volumes/live/f8867fdb-2fa2-4145-73d9-4d6f6dad5f7c/volume/kiwisolver_1612282424136/work
 Mako==1.1.3
 MarkupSafe==1.1.1
 matplotlib==3.4.2
 mkl-fft==1.3.0
-mkl-random @ file:///opt/concourse/worker/volumes/live/ee9c6651-7474-4ea3-40dc-9000610cf5d2/volume/mkl_random_1618853976708/work
 mkl-service==2.3.0
 numpy==1.19.4
 oauthlib==3.1.0
 olefile==0.46
 pandas==1.2.4
 pickle-mixin==1.0.2
-Pillow @ file:///opt/concourse/worker/volumes/live/36fa9bfe-eb93-4355-7a91-4b76d2c08b7e/volume/pillow_1617386161687/work
 postgres==3.0.0
 psycopg2==2.8.6
 psycopg2-binary==2.8.6
 psycopg2-pool==1.1
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
-PyJWT @ file:///opt/concourse/worker/volumes/live/bd094316-1935-4bf0-5028-b889d4e7967c/volume/pyjwt_1619682501859/work
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
-pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
-PySocks @ file:///opt/concourse/worker/volumes/live/112288ac-9cb0-4e73-768b-13baf4ca6419/volume/pysocks_1605305820043/work
-python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
 python-dotenv==0.15.0
 python-editor==1.0.4
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
 pyzmq==20.0.0
 requests==2.21.0
 requests-oauthlib==1.3.0
-scikit-learn @ file:///opt/concourse/worker/volumes/live/83f46a43-da2a-467b-5581-ed2cbd128684/volume/scikit-learn_1621370403088/work
 scipy==1.5.4
-six @ file:///opt/concourse/worker/volumes/live/34b5b2b5-c9cb-44fb-4b8e-8a9a881bfa35/volume/six_1605205329242/work
 sklearn==0.0
-SQLAlchemy @ file:///opt/concourse/worker/volumes/live/b6febf8f-acef-469a-46dc-a4b8012d6bce/volume/sqlalchemy_1620712420650/work
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 tweepy==3.9.0
 urllib3==1.24.3
-Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
-zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
 zmq==0.0.0
