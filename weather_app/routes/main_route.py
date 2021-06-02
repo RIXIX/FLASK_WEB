@@ -89,10 +89,10 @@ def predict():
 
     if output>str(0.8):
         return render_template('fire.html',pred='산불이 발생할 확률 {}% \n'
-                                                '주의수준😡'.format(float(output)*100))
+                                                '주의수준😡'.format(int(float(output)*100)))
     elif output>str(0.3):
         return render_template('fire.html',pred='산불이 발생할 확률 {}% \n'
-                                                '경계수준😞'.format(float(output)*100))
+                                                '경계수준😞'.format(int(float(output)*100)))
     elif output<str(0.2):
         return render_template('fire.html', pred='산불이 발생할 확률 {}% \n'
-                                                 '안전수준☺️ '.format(float(output)*100))
+                                                 '안전수준☺️ '.format(int(float(output)*100)))
