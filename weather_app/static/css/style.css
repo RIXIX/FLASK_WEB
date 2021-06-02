@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    position : center
+}
+
+.cardbg{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    padding:30px;
+}
+
+button{
+    outline: none;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: black;
+    background: #D46731;
+}
+
+.prediction{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.text
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:  #1e88e5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: #EDEDED 3px 2px 0;
+    position: relative;
+}
+
+.sub-text
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:  #1e88e5;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1;
+    position: relative;
+    clear:left;
+}

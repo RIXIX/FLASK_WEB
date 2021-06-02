@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block lead  %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../static/css/login.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>movie_login</title>
+    </head>
+    <body><div class="container">
+      <div class="jumbotron" style="text-align : center;">
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">로그인이 필요합니다</h1>
+            <p class="welcome-header__text">아이디와 비밀번호를 입력해주세요.</p>
+            <p class="welcome-header__text">아이디가 없으면 Sign Up을 통해 회원가입을 하실 수 있습니다. </p>
+        </header>
+
+        <form action="movie" method="get" id="login-form">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Log In"/>
+            <input type="submit" value="Sign Up"/>
+      </div>
+    </div>
+        </form>
+    </body>
+</html>
+{% endblock  %}
