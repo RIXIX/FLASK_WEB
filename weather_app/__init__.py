@@ -9,7 +9,7 @@ import os
 
 db = SQLAlchemy()
 migrate = Migrate()
-DATABASE_URI = 'postgres://vyfbdaka:tLsxsBoJVNz9s1uGpKPMmdtcaYMffeBv@batyr.db.elephantsql.com/vyfbdaka'
+DATABASE_URI = 'postgresql://vyfbdaka:tLsxsBoJVNz9s1uGpKPMmdtcaYMffeBv@batyr.db.elephantsql.com/vyfbdaka'
 
 def create_app(config=None):
     app = Flask(__name__)
