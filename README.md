@@ -1,6 +1,6 @@
 # 플라스크를 활용한 웹 기상 서비스와 산불 예측 서비스
 
-OpenWeatherApi를 사용하여 DB를 구축하고 HEROKU 배포완료
+### OpenWeatherApi를 사용하여 DB를 PostgreSQL로 구축하고, 관심있는 지역의 기상정보와 습도와 온도 등에 따른 간단한 산불 예측하는 웹 구현
 
 
 
